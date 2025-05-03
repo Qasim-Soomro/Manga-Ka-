@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-gray-100 text-foreground;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .manga-card:hover .hover-info {
+    @apply flex;
+  }
+  
+  .hover-info {
+    @apply hidden opacity-0 group-hover:opacity-100 transition-opacity duration-300;
+  }
+  
+  .chapter-list::-webkit-scrollbar {
+    @apply w-1.5;
+  }
+  
+  .chapter-list::-webkit-scrollbar-track {
+    @apply bg-gray-100;
+  }
+  
+  .chapter-list::-webkit-scrollbar-thumb {
+    @apply bg-gray-400 rounded;
+  }
+  
+  .chapter-list::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-500;
+  }
+  
+  .reading-page {
+    @apply max-h-[calc(100vh-180px)];
+  }
+  
+  .modal {
+    @apply backdrop-blur-sm;
+  }
+}
