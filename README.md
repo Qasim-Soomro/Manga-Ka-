@@ -48,6 +48,27 @@ Check out the live version here:
 - Node.js
 - PostgreSQL
 
+### 🗂️ Project Structure
+MangaKnight/
+├── public/             # Static assets
+├── server/             # Backend logic (Express)
+├── src/                # Frontend (React)
+│   ├── components/     
+│   ├── pages/
+│   ├── styles/
+├── .env                # Environment variables
+├── package.json        
+└── vite.config.ts
+
+### 📸 Screenshots
+Add screenshots here to showcase the UI and features.
+
+### 🤝 Contributing
+Contributions, suggestions, and improvements are welcome! Fork the repository and submit a pull request.
+
+### 📄 License
+This project is licensed under the MIT License.
+
 ### Installation
 
 ```bash
@@ -67,23 +88,4 @@ npx prisma migrate dev
 # 5. Start the server
 npm run dev
 
-🗂️ Project Structure
-MangaKnight/
-├── public/             # Static assets
-├── server/             # Backend logic (Express)
-├── src/                # Frontend (React)
-│   ├── components/     
-│   ├── pages/
-│   ├── styles/
-├── .env                # Environment variables
-├── package.json        
-└── vite.config.ts
 
-📸 Screenshots
-Add screenshots here to showcase the UI and features.
-
-🤝 Contributing
-Contributions, suggestions, and improvements are welcome! Fork the repository and submit a pull request.
-
-📄 License
-This project is licensed under the MIT License.
