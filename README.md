@@ -49,6 +49,7 @@ Check out the live version here:
 - PostgreSQL
 
 ### 🗂️ Project Structure
+
 MangaKnight/
 ├── public/             # Static assets
 ├── server/             # Backend logic (Express)
@@ -59,9 +60,6 @@ MangaKnight/
 ├── .env                # Environment variables
 ├── package.json        
 └── vite.config.ts
-
-### 📸 Screenshots
-Add screenshots here to showcase the UI and features.
 
 ### 🤝 Contributing
 Contributions, suggestions, and improvements are welcome! Fork the repository and submit a pull request.
