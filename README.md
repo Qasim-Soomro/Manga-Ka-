@@ -1,6 +1,6 @@
 # 📚 MangaKnight
 
-**MangaKnight** is a modern web application that allows users to browse, search, and read manga online through a clean and responsive interface.
+**MangaKnight** is a modern web application with a clean and responsive interface that allows users to browse, search, and read manga online.
 
 ## 🚀 Live Demo
 
